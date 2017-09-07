@@ -139,3 +139,21 @@ takes our JSX and transforms them to regular JS.
 
 ### Axios
 - allows us to make some ajax requests.
+
+### Intro to React Quiz
+    - React's setState API is "declarative"?
+      - False
+    - React Components can be composed just like functions can be composed
+      - True
+    - The way you iterate over a list in React is with React.map?
+      - False
+    - Which isn't a benefit of using React?
+      - Strictly typed
+    - Which tool has become the most popular in the React community
+      - Webpack
+    - Imperative code is concerned with "How" to do a task while Declarative code is concerned with "What" task you want to have happen
+      - True
+    - Babel is used to bundle all of your code together
+      - false (that's webpack)
+
+##
