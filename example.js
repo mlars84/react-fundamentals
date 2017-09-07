@@ -42,3 +42,41 @@ const Avatar = () => {
 }
 
 <Avatar username="tylermcginnis" />
+
+//Imperative (How)
+let numbers = [4,2,3,6]
+let total = 0
+for (let i = 0; i < numbers.length; i++) {
+  total += numbers[i]
+}
+
+//Declarative (What)
+let numbers2 = [4,2,3,6]
+numbers.reduce((previous, current) => {
+  return previous + current
+})
+console.log(numbers2);
+
+//Just JavaScript
+<ul>
+  {friends.map((name) => {
+    <li>
+      {name }
+    </li>
+  })}
+</ul>
+
+//React Router
+<Router>
+  <div>
+    <ul>
+      <li><Link to="/">Home</Link></li>
+      li><Link to="/">about</Link></li>
+      li><Link to="/">topics</Link></li>
+    </ul>
+
+    <Route exact path="/" component={Home} />
+    <Route exact path="/about" component={About} />
+    <Route exact path="/topics" component={Topics} />
+  </div>
+</Router>
