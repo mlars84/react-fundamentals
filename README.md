@@ -156,4 +156,12 @@ takes our JSX and transforms them to regular JS.
     - Babel is used to bundle all of your code together
       - false (that's webpack)
 
-##
+## Imperative vs Declarative (Bonus text)
+- Beauty of React is that you can create Declarative UI's.
+- another benefit of Declarative code is your program can be context-independent, or
+because your code is concerned with the ultimate goal, rather than the steps it
+takes to get there, the same code can be used in different programs and work fine.
+- Functional programming is a subset of Declarative programming.
+- Declarative programming is “the act of programming in languages that conform to the mental model of the developer rather than the operational model of the machine”.
+- Declarative Programming is programming with declarations, i.e. declarative sentences.
+- In computer science, declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow.
